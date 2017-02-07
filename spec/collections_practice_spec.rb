@@ -48,7 +48,7 @@ describe 'collections practice' do
   # Question 7
   describe '#find_a' do
     it 'find all words that begin with "a" in the following array' do
-      expect(find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])).to eq(["apple", "avis", "arlo", "ascot"])
+      expect(find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])).to eq([true, false, false, true, true, true])
     end
   end
 
