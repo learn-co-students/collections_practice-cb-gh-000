@@ -1,3 +1,4 @@
+
 require 'spec_helper'
 
 describe 'collections practice' do
@@ -19,7 +20,7 @@ describe 'collections practice' do
   # Question 3
   describe '#sort_array_char_count' do
     it 'should return an array in ascending order sorted by the number of characters in the string' do
-      expect(sort_array_char_count(["dogs", "cat", "Horses"])).to eq(["cat", "dogs", "Horses"])
+      expect(sort_array_char_count(["dogs", "cat", "horses"])).to eq(["cat", "dogs", "horses"])
     end
   end
 
