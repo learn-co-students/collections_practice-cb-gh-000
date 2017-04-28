@@ -48,18 +48,5 @@ def sum_array(numbers)
 end
 
 def add_s(array)
-  # Can someone Help me figure this out?
-  # I tried multiple variations only to fail
-  # array.each_with_index.collect { |e, index| index != 1 ? "#{e}s": nil }
-  # array.each_with_index.collect { |e, index| index != 1 ? e + "s": nil }
-  # array.each_with_index.collect { |e, index| index != 1 ? e = e+"s": nil }
-  # Thanks.
-  array.each_with_index.collect do |e,i|
-    if i !=1
-      "#{e}s"
-    else
-      "#{e}"
-    end
-
-  end
+  array.each_with_index.collect{|e,i| i!=1? "#{e}s": "#{e}"}
 end
