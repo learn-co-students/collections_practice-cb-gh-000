@@ -33,7 +33,7 @@ describe 'collections practice' do
   # Question 5
   describe '#reverse_array' do
     it 'reverse the order of an array' do
-      expect(reverse_array(["blake", "ashley", "scott"])).to eq(["scott", "ashley", "blake"])
+      expect(reverse_array(["blake", "ashley", "scott"])).to eq(["scott", "blake", "ashley"])
     end
   end
 
