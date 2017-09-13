@@ -23,6 +23,12 @@ describe 'collections practice' do
     end
   end
 
+  describe '#swap_elements_from_to' do
+    it "should return an array with elements swapped depending on the index given" do
+      expect(swap_elements_from_to(['dog','cat','cow'],0,2)).to eq(['cow','cat','dog'])
+    end
+  end
+
   # Question 4
   describe '#swap_elements' do
     it 'swap the second and third elements of an array' do
